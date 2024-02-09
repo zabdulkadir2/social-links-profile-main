@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   margin-top: 120px;
+}
+.card{
+    width: 400px;
+    background-color:  hsl(0, 0%, 12%);
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 1rem;
+}
+.image img{
+    border-radius: 50%;
+}
+.card-content h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+}
+.card-content h3{
+    color: hsl(75, 94%, 57%);
+    font-size: 18px;
+}
+.card-content p{
+    color:   hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+.links button {
+    display: block;
+    margin-top: 20px;
+    width: 80%;
+    padding: 12px;
+    margin-left: 35px;
+   background-color: hsl(0, 0%, 20%);
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+}
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    padding: 10px;
+}
+  
+.links button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 10%);
+}
+.links button .b:hover{
+    color: black;
+}
+.attribution { 
+    font-size: 18px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.attribution .b{
+    color: white;
+}
